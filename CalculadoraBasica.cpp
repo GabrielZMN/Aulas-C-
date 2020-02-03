@@ -49,8 +49,16 @@ int main()
 			break;
 		
 		case '/':
-			resultado = num1 / num2;
-			cout << resultado;
+			if(num2 != 0)
+			{
+				resultado = num1 / num2;
+				cout << resultado;
+			}
+			else
+			{
+				cout << "Operacao Invalida";
+			}
+			
 			break;
 		
 		default:
